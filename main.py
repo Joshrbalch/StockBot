@@ -1,8 +1,7 @@
 import json
 
-f = open('C:\Users\joshr\Documents\GitHub\StockBot\sample-stocks-data.json')
-
-data = json.load(f)
+with open("C:\Users\joshr\Documents\GitHub\StockBot\sample-stocks-data.json", 'r') as f:
+  data = json.load(f)
 
 # Iterating through the json
 
